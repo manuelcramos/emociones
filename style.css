@@ -1,0 +1,125 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Fondo por defecto (inicio) */
+body.inicio {
+  background: linear-gradient(to right, #3a6073, #16222a); /* Azul-gris oscuro */
+}
+
+/* Contenedor centrado */
+.contenedor {
+  text-align: center;
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+select, button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#frase {
+  margin-top: 20px;
+  font-size: 1.4em;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 🎨 Colores para cada emoción/categoría */
+
+/* Tristeza: azul melancólico */
+body.triste {
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+}
+
+/* Alegría: amarillo soleado */
+body.feliz {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+}
+
+/* Miedo/Estresado: gris y rojo apagado */
+body.estresado {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+/* Sorpresa: violeta brillante */
+body.sorpresa {
+  background: linear-gradient(to right, #DA22FF, #9733EE);
+}
+
+/* Cansado: azul suave */
+body.cansado {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+/* Motivado: naranja vibrante */
+body.motivado {
+  background: linear-gradient(to right, #f12711, #f5af19);
+}
+
+/* Duelo: gris oscuro y negro */
+body.duelo {
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+/* Estudios: verde pastel */
+body.estudios {
+  background: linear-gradient(to right, #76b852, #8DC26F);
+}
+
+/* Trabajo: azul corporativo */
+body.trabajo {
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+}
+
+/* Emociones generales: arcoiris pastel */
+body.emociones {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+/* Relaciones: rosa claro */
+body.relaciones {
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+
+/* Crecimiento personal: verde esperanza */
+body.crecimiento_personal {
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+/* Deporte: verde fresco */
+body.deporte {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+/* Hueso ancho: marrón cálido */
+body.hueso_ancho {
+  background: linear-gradient(to right, #d1913c, #ffd194);
+}
+
+/* Deprimido: azul esperanza */
+body.deprimido {
+  background: linear-gradient(to right, #89f7fe, #66a6ff);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Despierta tu Grandeza: Frases para Cambiar tu Mundo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="inicio">
+  <div class="contenedor">
+    <h1>¿Cómo te sientes hoy?</h1>
+
+    <!-- Selección de emoción básica -->
+    <div id="modo-emocion">
+      <label for="emocion-basica">Emociones básicas:</label>
+      <select id="emocion-basica">
+        <option value="">-- Selecciona una emoción --</option>
+        <option value="triste">Tristeza</option>
+        <option value="feliz">Alegría</option>
+        <option value="estresado">Miedo</option>
+        <option value="sorpresa">Sorpresa</option>
+      </select>
+    </div>
+
+    <!-- Selección de categorías adicionales -->
+    <div id="modo-categoria">
+      <label for="categoria">Otras categorías:</label>
+      <select id="categoria">
+        <option value="">-- Selecciona una opción --</option>
+        <option value="emociones">Emociones</option>
+        <option value="estudios">Estudios</option>
+        <option value="trabajo">Trabajo</option>
+        <option value="relaciones">Relaciones</option>
+        <option value="duelo">Duelo o pérdida</option>
+        <option value="crecimiento_personal">Crecimiento personal</option> 
+        <option value="deporte">Deporte</option>
+        <option value="hueso_ancho">Para la gente de hueso ancho</option>
+        <option value="deprimido">Para gente deprimida</option>
+        <option value="cansado">Cansado</option>
+        <option value="motivado">Motivado</option>
+      </select>
+    </div>
+
+    <!-- Botones -->
+    <button id="btn-frase">Obtener frase motivadora</button>
+    <button id="btn-otra-cat" onclick="otraFraseCategoria()" style="display:none;">Otra frase</button>
+
+    <!-- Resultado -->
+    <div id="frase">✨ Bienvenido. Elige cómo te sientes y deja que una frase te inspire. ✨</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
