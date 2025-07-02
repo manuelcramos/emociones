@@ -123,3 +123,7 @@ body.hueso_ancho {
 body.deprimido {
   background: linear-gradient(to right, #89f7fe, #66a6ff);
 }
+/*Fondo azul celeste y azul marino para simbolizar confianza y avance */
+body.centro {
+  background: linear-gradient(to right, #00b4db, #0083b0);
+}
