@@ -54,10 +54,12 @@ body.triste {
   background: linear-gradient(to right, #4568dc, #b06ab3);
 }
 
-/* Alegría: amarillo soleado */
+/* verde lima + verde hierba */
 body.feliz {
-  background: linear-gradient(to right, #fceabb, #f8b500);
+  background: linear-gradient(to right, #a8e063, #56ab2f); 
 }
+
+
 
 /* Miedo/Estresado: gris y rojo apagado */
 body.estresado {
